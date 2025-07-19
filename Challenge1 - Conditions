@@ -1,0 +1,32 @@
+'''
+Create a program that, depending on the steak temperature (in Celsius), returns the cooking level in English.
+The user should provide the temperature.
+
+Conditions:
+
+Less than 48°C - Cook for more minutes
+48°C to 53°C - Seared
+54°C to 59°C - Medium rare
+60°C to 64°C - Medium
+65°C to 70°C - Medium well
+71°C to 85°C - Well done
+Greater than 86°C - Burnt
+
+'''
+
+temp_cel = int(input('What is the temperature of the steak? '))
+
+if temp_cel < 48:
+    print('Cook for more minutes')
+elif temp_cel in range(48, 54):
+    print('Seared')
+elif temp_cel in range(54, 60):
+    print('Medium rare')
+elif temp_cel in range(60, 65):
+    print('Medium')
+elif temp_cel in range(65, 71):
+    print('Medium well')
+elif temp_cel in range(71, 86):
+    print('Well done')
+else:
+    print('Burnt steak')
