@@ -1,0 +1,20 @@
+
+# Challenge with functions
+'''
+Create a program that calculates the amount of paint needed to paint a wall.
+The user must provide the following information: Coverage, height, and width.
+The program should display the message: 'You need x cans of paint'
+'''
+
+coverage = int(input('What is the coverage of the can? '))
+height = int(input('What is the height of the wall? '))
+width = int(input('What is the width of the wall? '))
+
+def paint_calculation():
+    total = (height * width) / coverage
+    print(f'You need {total} cans of paint')
+
+paint_calculation()
+ 
+
+
