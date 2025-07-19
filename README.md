@@ -1,4 +1,4 @@
-(python.png)
+!(python.png)
 
 # Python Activities
 
