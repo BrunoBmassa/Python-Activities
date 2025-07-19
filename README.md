@@ -24,11 +24,15 @@ To practice and strengthen Python skills through small, hands-on projects.
 ## How to Use
 
 1. Clone this repository:
-   ```bash
+   
    git clone https://github.com/BrunoBmassa/Python-Activities.git
+   
 2. Navigate to the project folder:
+   
    cd Python-Activities
+   
 3. Open it in your preferred editor or run the .py and .ipynb files.
 
-Author
+## Author
+
 Bruno Brehmer Massaneiro
