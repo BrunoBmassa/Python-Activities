@@ -1,3 +1,5 @@
+![Banner do projeto](images/banner.png)
+
 # Python Activities
 
 This repository contains Python programming challenges and practical exercises, organized by topic.
