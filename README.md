@@ -7,7 +7,7 @@ This repository contains Python programming challenges and practical exercises, 
 - `Challenge1 - Conditions`: Exercises using conditional statements (`if`, `elif`, `else`).
 - `Challenge2 - Functions`: Activities focused on creating and using functions.
 - `Challenge3 - Lists`: Practice with lists and loops.
-- `Challenge4 - IMC-Calculator`: Body Mass Index (BMI) calculator with user input.
+- `Challenge4 - BMI-Calculator`: Body Mass Index (BMI) calculator with user input.
 
 ## Purpose
 
