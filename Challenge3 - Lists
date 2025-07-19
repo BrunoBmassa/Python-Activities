@@ -1,0 +1,22 @@
+
+# Challenge with Lists
+'''
+Create a program that generates 3 lists according to the requirements below:
+
+List1 = Employees who have a car and work at night
+List2 = Employees who have a car and work during the day
+List3 = Employees who do not have a car
+'''
+
+employees = ['Ana', 'Marcos', 'Alice', 'Pedro', 'Sophia', 'Bruno', 'Melissa']
+day_shift = ['Ana', 'Marcos', 'Alice', 'Melissa']
+night_shift = ['Pedro', 'Sophia', 'Bruno']
+has_car = ['Marcos', 'Alice', 'Bruno', 'Melissa']
+
+List1 = set(has_car).intersection(night_shift)
+List2 = set(has_car).intersection(day_shift)
+List3 = set(employees).difference(has_car)
+
+print(List1)
+print(List2)
+print(List3)
