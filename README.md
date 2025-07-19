@@ -1,4 +1,4 @@
-![Banner do projeto](images/banner.png)
+(python.png)
 
 # Python Activities
 
